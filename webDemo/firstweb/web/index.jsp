@@ -10,6 +10,10 @@
   <head>
     <title>$Title$</title>
   </head>
-  <body>My first web application. <%= new java.util.Date()%>
+  <body>Current time: <%= new java.util.Date()%><br>
+    Convert a string to uppercase: <%= new String("Hello World.").toUpperCase()%><br>
+    25 * 4 = <%= 25*4%> <br>
+    Is 75 less than 69? <%= 75<69%><br>
+
   </body>
 </html>
