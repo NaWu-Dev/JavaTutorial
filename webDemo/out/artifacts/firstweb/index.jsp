@@ -10,6 +10,6 @@
   <head>
     <title>$Title$</title>
   </head>
-  <body>My first web application.
+  <body>My first web application. <%= new java.util.Date()%>
   </body>
 </html>
