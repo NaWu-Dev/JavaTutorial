@@ -14,6 +14,11 @@
   </head>
   <body>
 
+  <h3>JSP build-in objects</h3>
+  Request user agent: <%= request.getHeader("User-Agent")%>
+  <br>
+  Request language: <%= request.getLocale() %>
+
   <h3>JSP Expression</h3>
     Current time: <%= new java.util.Date()%><br>
     Convert a string to uppercase: <%= new String("Hello World.").toUpperCase()%><br>
