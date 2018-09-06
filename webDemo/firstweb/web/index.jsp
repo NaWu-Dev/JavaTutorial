@@ -11,12 +11,14 @@
     <title>$Title$</title>
   </head>
   <body>
+
   <h3>JSP Expression</h3>
     Current time: <%= new java.util.Date()%><br>
     Convert a string to uppercase: <%= new String("Hello World.").toUpperCase()%><br>
     25 * 4 = <%= 25*4%> <br>
     Is 75 less than 69? <%= 75<69%><br>
     <br>
+
   <h3>JSP Scriptlet</h3>
     Count down: <br>
     <%
@@ -24,5 +26,14 @@
           out.println(i + "<br>");
       }
     %>
+
+  <h3>JSP Declaration</h3>
+  <%!
+    String makeItLower(String data) {
+        return data.toLowerCase();
+    }
+  %>
+  Lower case "Hello World": <%= makeItLower("Hello World")%>
+
   </body>
 </html>
