@@ -5,6 +5,8 @@
   Time: 9:44 AM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="com.test.jsp.*, java.util.*" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
@@ -34,6 +36,9 @@
     }
   %>
   Lower case "Hello World": <%= makeItLower("Hello World")%>
+
+  <h3>Call Java Class from JSP</h3>
+  Let's have some fun: <%= FunUtils.makeItLower("FUN FUn FUn")%>
 
   </body>
 </html>
