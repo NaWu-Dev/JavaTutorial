@@ -16,6 +16,7 @@
 
   <h3>JSP build-in objects</h3>
   Request user agent: <%= request.getHeader("User-Agent")%>
+  <br>
   Request language: <%= request.getLocale() %>
 
   <h3>JSP Expression</h3>
