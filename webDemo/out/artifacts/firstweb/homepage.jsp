@@ -3,7 +3,7 @@
 <jsp:include page="my-header.html"/>
 <br><br>
 Testing.
-<br><<br>
+<br><br>
 <jsp:include page="my-footer.jsp"/>
 </body>
 
