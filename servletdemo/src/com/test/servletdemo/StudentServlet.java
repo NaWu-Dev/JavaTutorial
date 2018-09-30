@@ -26,6 +26,7 @@ public class StudentServlet extends HttpServlet {
         out.println("<html><body>");
         out.println("The student is confirmed: " +
                 request.getParameter("firstName") + " " +
+                request.getParameter("middleName") + ", " +
                 request.getParameter("lastName"));
         out.println("</body></html>");
 
