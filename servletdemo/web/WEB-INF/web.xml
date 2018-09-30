@@ -7,9 +7,17 @@
         <servlet-name>HelloWorldServlet</servlet-name>
         <servlet-class>com.test.servletdemo.HelloWorldServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>StudentServlet</servlet-name>
+        <servlet-class>com.test.servletdemo.StudentServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
         <url-pattern>/HelloWorldServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentServlet</servlet-name>
+        <url-pattern>/StudentServlet</url-pattern>
     </servlet-mapping>
 </web-app>
