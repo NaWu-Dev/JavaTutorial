@@ -19,6 +19,10 @@
         <servlet-name>MvcDemoServlet</servlet-name>
         <servlet-class>com.test.servletdemo.MvcDemoServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>MvcDemoServletTwo</servlet-name>
+        <servlet-class>com.test.servletdemo.mvctwo.MvcDemoServletTwo</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>HelloWorldServlet</servlet-name>
@@ -35,6 +39,10 @@
     <servlet-mapping>
         <servlet-name>MvcDemoServlet</servlet-name>
         <url-pattern>/MvcDemoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MvcDemoServletTwo</servlet-name>
+        <url-pattern>/MvcDemoServletTwo</url-pattern>
     </servlet-mapping>
 
 
