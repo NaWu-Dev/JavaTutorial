@@ -1,9 +1,6 @@
 package com.test.web.jdbc;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,4 +68,34 @@ public class StudentDbUtil {
         }
     }
 
+    public void addStudent(Student theStudent) throws Exception{
+
+        Connection myConn = null;
+        PreparedStatement myStmt = null;
+        ResultSet myRs = null;
+
+        try {
+            // db connection
+            Class.forName("com.mysql.jdbc.Driver");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
+
+            // create sql for insert
+            String sql = "insert into student " +
+                        "(first_name, last_name, email) " +
+                        "value (?, ?, ?)";
+            myStmt = myConn.prepareStatement(sql);
+
+            // set the param values for the student
+            myStmt.setString(1, theStudent.getFirstName());
+            myStmt.setString(2, theStudent.getLastName());
+            myStmt.setString(3, theStudent.getEmail());
+
+            // execute sql
+            myStmt.execute();
+        }
+        finally {
+            // cleanup jdbc objects
+            close(myConn, myStmt, null);
+        }
+    }
 }
