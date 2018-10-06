@@ -6,6 +6,9 @@ import java.util.List;
 
 public class StudentDbUtil {
 
+    public static void updateStudent(Student theStudent) {
+    }
+
     public List<Student> getStudents() throws Exception {
 
         List<Student> students = new ArrayList<>();
