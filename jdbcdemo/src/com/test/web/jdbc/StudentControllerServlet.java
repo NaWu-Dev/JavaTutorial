@@ -57,6 +57,9 @@ public class StudentControllerServlet extends HttpServlet {
                 case "LOAD":
                     loadStudent(request, response);
                     break;
+                case "UPDATE":
+                    updateStudent(request, response);
+                    break;
                 default:
                     listStudents(request, response);
             }
@@ -66,6 +69,9 @@ public class StudentControllerServlet extends HttpServlet {
             throw new ServletException(e);
         }
 
+    }
+
+    private void updateStudent(HttpServletRequest request, HttpServletResponse response) {
     }
 
     private void loadStudent(HttpServletRequest request, HttpServletResponse response)throws Exception{
