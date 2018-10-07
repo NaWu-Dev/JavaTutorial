@@ -6,8 +6,6 @@ import java.util.List;
 
 public class StudentDbUtil {
 
-    public static void updateStudent(Student theStudent) {
-    }
 
     public List<Student> getStudents() throws Exception {
 
@@ -53,7 +51,7 @@ public class StudentDbUtil {
         }
     }
 
-    private void close(Connection myConn, Statement myStmt, ResultSet myRs) {
+    private static void close(Connection myConn, Statement myStmt, ResultSet myRs) {
         try {
             if (myRs != null) {
                 myRs.close();
@@ -146,6 +144,39 @@ public class StudentDbUtil {
         finally {
             // clean up JDBC connection
             close(myConn, myStmt, myRs);
+        }
+    }
+
+    public static void updateStudent(Student theStudent) throws Exception{
+
+        Connection myConn = null;
+        PreparedStatement myStmt = null;
+
+        try {
+            // get db connection
+            Class.forName("com.mysql.jdbc.Driver");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
+
+            // create sql statement
+            String sql = "update student " +
+                        "set first_name=?, last_name=?, email=? " +
+                        "where id=?";
+
+            // prepare statement
+            myStmt = myConn.prepareStatement(sql);
+
+            // set params
+            myStmt.setString(1, theStudent.getFirstName());
+            myStmt.setString(2, theStudent.getLastName());
+            myStmt.setString(3, theStudent.getEmail());
+            myStmt.setInt(4, theStudent.getId());
+
+            // execute sql statement
+            myStmt.execute();
+        }
+        finally {
+            // clean up JDBC connection
+            close(myConn, myStmt, null);
         }
     }
 }
