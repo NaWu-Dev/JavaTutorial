@@ -180,4 +180,33 @@ public class StudentDbUtil {
             close(myConn, myStmt, null);
         }
     }
+
+    public void deleteStudent(String theStudentId) throws Exception{
+        Connection myConn = null;
+        PreparedStatement myStmt = null;
+
+        try {
+            // convert studet id to int
+            int studentId = Integer.parseInt(theStudentId);
+
+            // get connecton to db
+            Class.forName("com.mysql.jdbc.Driver");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
+
+            // create sql to delete student
+            String sql = "delete from student where id=?";
+
+            // prepare statment
+            myStmt = myConn.prepareStatement(sql);
+
+            // set parameters
+            myStmt.setInt(1, studentId);
+
+            // executue sql statement
+            myStmt.execute();
+        }
+        finally {
+            close(myConn, myStmt, null);
+        }
+    }
 }
