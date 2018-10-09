@@ -39,7 +39,11 @@
                     <td>${tempStudent.firstName}</td>
                     <td>${tempStudent.lastName}</td>
                     <td>${tempStudent.email}</td>
-                    <td><a href="${tempLink}">Update</a> </td>
+                    <td>
+                        <a href="${tempLink}">Update</a>
+                         |
+                        <a href=""${tempLInk}>Delete</a>
+                    </td>
                 </tr>
             </c:forEach>
         </table>

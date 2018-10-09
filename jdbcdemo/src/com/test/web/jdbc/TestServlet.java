@@ -22,7 +22,7 @@ public class TestServlet extends javax.servlet.http.HttpServlet {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.230:3306/web_student_tracker", "Cat", "100281");
 
             // Step 3. Create a SQL statements
             String sql = "select * from student";
