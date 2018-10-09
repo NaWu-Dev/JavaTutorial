@@ -18,7 +18,7 @@ public class StudentDbUtil {
         try {
             // get a connection
             Class.forName("com.mysql.jdbc.Driver");
-            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.230:3306/web_student_tracker?useSSL=false",
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker?useSSL=false",
                     "Cat", "100281");
 
             // create sql statement
@@ -79,7 +79,7 @@ public class StudentDbUtil {
         try {
             // db connection
             Class.forName("com.mysql.jdbc.Driver");
-            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.230:3306/web_student_tracker", "Cat", "100281");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
 
             // create sql for insert
             String sql = "insert into student " +
@@ -115,7 +115,7 @@ public class StudentDbUtil {
 
             // get connecion to db
             Class.forName("com.mysql.jdbc.Driver");
-            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.230:3306/web_student_tracker", "Cat", "100281");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
 
             // create sql to get selected student
             String sql = "select * from student where id=?";
@@ -156,7 +156,7 @@ public class StudentDbUtil {
         try {
             // get db connection
             Class.forName("com.mysql.jdbc.Driver");
-            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.230:3306/web_student_tracker", "Cat", "100281");
+            myConn = DriverManager.getConnection("jdbc:mysql://192.168.1.117:3306/web_student_tracker", "Cat", "100281");
 
             // create sql statement
             String sql = "update student " +
