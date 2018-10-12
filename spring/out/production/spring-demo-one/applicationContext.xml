@@ -12,7 +12,7 @@
     
     <!-- define the dependency -->
     <bean id="myCoach"
-    		class="com.na.springdemo.TrackCoach">
+    		class="com.na.springdemo.ComputerCoach">
 	</bean>
 
 
