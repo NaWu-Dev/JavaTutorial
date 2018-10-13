@@ -7,4 +7,6 @@ public class ComputerCoach implements Coach{
         return "Computer Class will start in Jan. ";
     }
 
+    @Override
+    public String getDailyFortune() {return null; }
 }
