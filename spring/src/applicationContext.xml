@@ -13,6 +13,7 @@
     <!-- define the dependency -->
     <bean id="myCoach"
           class="com.na.springdemo.BaseballCoach">
+
         <!-- set up constructor injection -->
         <constructor-arg ref="myFortune"/>
 	</bean>
@@ -21,6 +22,12 @@
           class="com.na.springdemo.HappyFortuneService">
     </bean>
 
+    <bean id="myCricketCoach"
+        class="com.na.springdemo.CricketCoach" >
+
+        <!-- set up setter injection  -->
+        <property name="fortuneService" ref="myFortune"/>
+    </bean>
 
 </beans>
 

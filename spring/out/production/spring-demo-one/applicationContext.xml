@@ -21,6 +21,10 @@
           class="com.na.springdemo.HappyFortuneService">
     </bean>
 
+    <bean id="myCricketCoach"
+        class="com.na.springdemo.CricketCoach" >
+
+    </bean>
 
 </beans>
 
