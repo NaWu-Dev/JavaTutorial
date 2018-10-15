@@ -1,6 +1,8 @@
 package com.na.springdemo;
 
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class SwimCoach implements Coach {
 
     private FortuneService fortuneService;
@@ -8,6 +10,12 @@ public class SwimCoach implements Coach {
     public SwimCoach(FortuneService theFortuneService) {
         fortuneService = theFortuneService;
     }
+
+    @Value("${nana.email}")
+    private String email;
+
+    @Value("${nana.team}")
+    private String team;
 
     @Override
     public String getDailyWorkout() {
@@ -18,5 +26,14 @@ public class SwimCoach implements Coach {
     public String getDailyFortune() {
         return fortuneService.getFortune();
     }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTeam() {
+        return team;
+    }
+
 
 }
