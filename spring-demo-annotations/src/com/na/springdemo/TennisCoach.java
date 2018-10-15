@@ -8,8 +8,19 @@ public class TennisCoach implements Coach {
 
     private FortuneService fortuneService;
 
+    public TennisCoach() {
+        System.out.println(">> TennisCoach : default constructor");
+    }
+
+    // Constructor injection
+//    @Autowired
+//    public TennisCoach(FortuneService theFortuneService) {
+//        fortuneService = theFortuneService;
+//    }
+
+    // setter injection
     @Autowired
-    public TennisCoach(FortuneService theFortuneService) {
+    public void setFortuneService(FortuneService theFortuneService) {
         fortuneService = theFortuneService;
     }
 
