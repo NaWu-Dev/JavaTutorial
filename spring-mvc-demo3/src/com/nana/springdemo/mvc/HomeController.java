@@ -8,7 +8,6 @@ public class HomeController {
 
     // add request mapping to controller method
     @RequestMapping("/")
-
     // define controller method
     public String showPage() {
         return "main-menu";
