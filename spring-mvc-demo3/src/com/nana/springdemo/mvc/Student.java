@@ -9,6 +9,8 @@ public class Student {
 
     private LinkedHashMap<String, String> countryOptions;
 
+    private String favoriteLanguage;
+
     public Student() {
         // popluate country options: used ISO country code
         countryOptions = new LinkedHashMap<>();
@@ -35,6 +37,10 @@ public class Student {
         return countryOptions;
     }
 
+    public String getFavoriteLanguage() {
+        return favoriteLanguage;
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -45,6 +51,10 @@ public class Student {
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    public void setFavoriteLanguage(String favoriteLanguage) {
+        this.favoriteLanguage = favoriteLanguage;
     }
 }
 
