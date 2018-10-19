@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/WEB-INF/view/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/WEB-INF/view/main-menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/WEB-INF/view/student-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo3/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,30 +30,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="9" />
-          <entry key="jsp" value="9" />
+          <entry key="java" value="10" />
+          <entry key="jsp" value="10" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="9" />
-          <entry key="JSP" value="9" />
+          <entry key="JAVA" value="10" />
+          <entry key="JSP" value="10" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2467" />
-          <entry key="jsp" value="2283" />
+          <entry key="java" value="2779" />
+          <entry key="jsp" value="2415" />
           <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2467" />
-          <entry key="JSP" value="2283" />
+          <entry key="JAVA" value="2779" />
+          <entry key="JSP" value="2415" />
           <entry key="XML" value="35" />
         </counts>
       </usages-collector>
@@ -69,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
@@ -89,11 +81,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -172,14 +185,15 @@
         <option value="$PROJECT_DIR$/src/com/nana/springdemo/mvc/Student.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/student-confirmation.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" />
-        <option value="$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml" />
-        <option value="$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" />
+        <option value="$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java" />
       </list>
     </option>
   </component>
@@ -292,7 +306,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539907395260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539971983571" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -487,12 +501,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539779588542</updated>
-      <workItem from="1539779590268" duration="26325000" />
+      <workItem from="1539779590268" duration="27780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26325000" />
+    <option name="totallyTimeSpent" value="27780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="707" extended-state="0" />
@@ -504,19 +518,19 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26009694" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26009694" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3284553" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32901135" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.31219512" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.31219512" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -634,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -655,24 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,6 +719,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
