@@ -12,9 +12,10 @@ public class Customer {
     private String lastName;
 
     // Add validation rule for freePass
+    @NotNull(message = "is required")
     @Min(value = 0, message="must be greater than or equal to zero")
     @Max(value = 10, message="must less than or equal to 10")
-    private int freePass;
+    private Integer freePass;
 
     // Add validation rule for PostalCode
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message="only 5 characters/digits")
@@ -36,11 +37,11 @@ public class Customer {
         return lastName;
     }
 
-    public int getFreePass() {
+    public Integer getFreePass() {
         return freePass;
     }
 
-    public void setFreePass(int freePass) {
+    public void setFreePass(Integer freePass) {
         this.freePass = freePass;
     }
 
