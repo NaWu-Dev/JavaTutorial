@@ -1,11 +1,8 @@
 package com.nana.springdemo.mvc;
 
-import org.springframework.stereotype.Controller;
-
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-@Controller
 public class Customer {
 
     private String firstName;
