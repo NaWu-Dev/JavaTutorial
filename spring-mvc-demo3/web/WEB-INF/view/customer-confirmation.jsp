@@ -12,5 +12,8 @@ The customer is confirmed: ${customer.firstName}, ${customer.lastName}.
 Free pass: ${customer.freePass}
 <br><br>
 
+Postal Code: ${customer.postalCode}
+<br><br>
+
 </body>
 </html>
