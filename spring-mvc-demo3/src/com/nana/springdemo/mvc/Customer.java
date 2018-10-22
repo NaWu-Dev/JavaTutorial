@@ -1,6 +1,7 @@
 package com.nana.springdemo.mvc;
 
 import com.nana.springdemo.mvc.validation.CourseCode;
+import com.nana.springdemo.mvc.validation.EmailAddress;
 
 import javax.validation.constraints.*;
 
@@ -26,6 +27,17 @@ public class Customer {
     //
     @CourseCode(value="TOPS", message = "must start with TOPS") // default value already defined
     private String courseCode;
+
+    @EmailAddress()
+    private String emailAddress;
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
 
     public String getCourseCode() {
         return courseCode;
