@@ -1,5 +1,7 @@
 package com.nana.springdemo.mvc;
 
+import com.nana.springdemo.mvc.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -20,6 +22,18 @@ public class Customer {
     // Add validation rule for PostalCode
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message="only 5 characters/digits")
     private String postalCode;
+
+    //
+    @CourseCode(value="TOPS", message = "must start with TOPS") // default value already defined
+    private String courseCode;
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
+    }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
