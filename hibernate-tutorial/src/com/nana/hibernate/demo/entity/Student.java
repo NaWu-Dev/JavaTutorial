@@ -1,9 +1,6 @@
 package com.nana.hibernate.demo.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 // Map class to DB table
 @Entity
@@ -12,6 +9,7 @@ public class Student {
 
     // Map fields to DB columns
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int id;
 
