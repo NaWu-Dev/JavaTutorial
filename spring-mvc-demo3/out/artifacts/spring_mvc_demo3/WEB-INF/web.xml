@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_9.xsd"
          version="3.9">
 
-    <display-name>spring-mvc-demo</display-name>
+    <display-name>spring-mvc-demo3</display-name>
 
     <!-- Spring MVC Configs -->
 
