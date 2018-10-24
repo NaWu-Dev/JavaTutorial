@@ -13,14 +13,25 @@ public class emailAddressConstraintValidator implements ConstraintValidator<Emai
 
    public boolean isValid(String obj, ConstraintValidatorContext context) {
 
-      boolean result;
+      boolean result = true;
 
       if (obj != null) {
-         result = obj.endsWith(emailSuffix);
-      } else {
-         return true;
+         // result = obj.endsWith(emailSuffix);
+         if (obj.length() <= 4) {
+            result = contextErrorHandler(context, "length must greater than 4");
+         } else if (obj.contains("+") | obj.contains("-")) {
+            result = contextErrorHandler(context, "must not contain + or -");
+         } else if (!obj.contains("@")) {
+            result = contextErrorHandler(context, "must contain @");
+         }
       }
 
       return result;
+   }
+
+   private boolean contextErrorHandler(ConstraintValidatorContext context, String s) {
+      context.disableDefaultConstraintViolation();
+      context.buildConstraintViolationWithTemplate(s).addConstraintViolation();
+      return false;
    }
 }
