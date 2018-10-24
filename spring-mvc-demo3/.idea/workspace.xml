@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-tutorial/src/com/nana/hibernate/demo/ReadStudentDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-tutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-tutorial/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/validation/emailAddressConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/springdemo/mvc/validation/emailAddressConstraintValidator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +20,7 @@
     <session id="493637221">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -350,7 +347,7 @@
     <property name="SearchEverywhereHistoryKey" value="contextConfigLocation&#9;PSI&#9;JAVA://org.springframework.jca.context.SpringContextResourceAdapter#contextConfigLocation" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540339481601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540339481645" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -474,12 +471,12 @@
       <workItem from="1539779590268" duration="31060000" />
       <workItem from="1540169493812" duration="3860000" />
       <workItem from="1540212876552" duration="5012000" />
-      <workItem from="1540337132136" duration="1731000" />
+      <workItem from="1540337132136" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42562000" />
+    <option name="totallyTimeSpent" value="43174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="707" extended-state="0" />
@@ -491,7 +488,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2907916" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2907916" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -503,7 +500,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32901135" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.23902439" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.23902439" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
