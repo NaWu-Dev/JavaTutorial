@@ -22,7 +22,7 @@ public class Instructor {
 
     // *** Setup mapping to InstructorDetail entity
     @OneToOne(cascade = CascadeType.ALL)
-    @Column(name = "instructor_detail_id")
+    @JoinColumn(name = "instructor_detail_id")
     private InstructorDetail instructorDetail;
 
     public Instructor() {
