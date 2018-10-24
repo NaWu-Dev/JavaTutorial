@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7f05c-bd2f-40f0-9ed4-052a461fa74e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/DeleteDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,39 +54,48 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="1466" />
+          <entry key="java" value="1844" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1466" />
+          <entry key="JAVA" value="1844" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/DeleteDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -147,8 +154,9 @@
         <option value="$PROJECT_DIR$/src/com/nana/jdbc/TestJdbc.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/InstructorDetail.java" />
-        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateDemo.java" />
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/DeleteDemo.java" />
       </list>
     </option>
   </component>
@@ -476,7 +484,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540392449278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540393098610" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -507,7 +515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateDemo">
+  <component name="RunManager" selected="Application.DeleteDemo">
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.CreateDemo" />
       <module name="hibernate-tutorial" />
@@ -521,8 +529,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.DeleteStudentDemo" />
+    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.DeleteDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -534,8 +542,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.QueryStudentDemo" />
+    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.DeleteStudentDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -574,19 +582,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QueryStudentDemo" />
       <item itemvalue="Application.UpdateStudentDemo" />
       <item itemvalue="Application.DeleteStudentDemo" />
       <item itemvalue="Application.TestJdbc" />
       <item itemvalue="Application.CreateDemo" />
+      <item itemvalue="Application.DeleteDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteDemo" />
         <item itemvalue="Application.CreateDemo" />
         <item itemvalue="Application.TestJdbc" />
         <item itemvalue="Application.DeleteStudentDemo" />
         <item itemvalue="Application.UpdateStudentDemo" />
-        <item itemvalue="Application.QueryStudentDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -601,12 +609,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540255185748</updated>
       <workItem from="1540255187824" duration="824000" />
-      <workItem from="1540387814332" duration="2902000" />
+      <workItem from="1540387814332" duration="3774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14132000" />
+    <option name="totallyTimeSpent" value="15004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,7 +640,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.2813008" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.16260162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -752,11 +760,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="525">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/DeleteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
