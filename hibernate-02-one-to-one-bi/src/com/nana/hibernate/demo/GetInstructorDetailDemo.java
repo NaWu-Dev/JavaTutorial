@@ -39,7 +39,12 @@ public class GetInstructorDetailDemo {
 
             System.out.println("Done!");
 
-        } finally {
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        finally {
+            session.close();
             factory.close();
         }
 
