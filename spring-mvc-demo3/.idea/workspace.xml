@@ -7,38 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/artifacts/hibernate_tutorial_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/hibernate-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreatedCoursesAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreatedCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/jdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteCoursesAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/GetCoursesAndReviewsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
