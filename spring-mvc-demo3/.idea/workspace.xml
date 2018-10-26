@@ -7,9 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/artifacts/hibernate_tutorial_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreatedCoursesAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/CreatedCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/hibernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/com/nana/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EagerLazyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -103,7 +131,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/validation/emailAddressConstraintValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="154">
               <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
             </state>
           </provider>
@@ -242,9 +270,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="707" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -485,7 +513,7 @@
     <option name="totallyTimeSpent" value="43811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="707" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -506,7 +534,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32901135" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.23902439" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.24257426" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -718,7 +746,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nana/springdemo/mvc/validation/emailAddressConstraintValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="154">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>

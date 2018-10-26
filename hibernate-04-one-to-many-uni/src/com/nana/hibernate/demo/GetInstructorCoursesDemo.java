@@ -9,7 +9,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.util.List;
 
-public class EaderLazyDemo {
+public class GetInstructorCoursesDemo {
 
     public static void main(String[] args) {
 
@@ -39,17 +39,12 @@ public class EaderLazyDemo {
             int id = 1;
             Instructor tempInstructor = session.get(Instructor.class, id);
 
-            System.out.println("Instructor: " + tempInstructor);
+            List<Course> courses = tempInstructor.getCourses();
 
-            System.out.println("Courses: " + tempInstructor.getCourses());
+            System.out.println("Courses: " + courses);
 
             // commit transaction
             session.getTransaction().commit();
-
-            session.close();
-
-            System.out.println("Courses... : " + tempInstructor.getCourses());
-
 
             System.out.println("Done!");
 
