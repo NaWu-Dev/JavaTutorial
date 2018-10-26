@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
