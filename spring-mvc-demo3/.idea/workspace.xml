@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/CreatedCoursesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/out/production/hibernate-tutorial/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/jdbc/TestJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/jdbc/TestJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
