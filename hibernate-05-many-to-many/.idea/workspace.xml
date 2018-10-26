@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7f05c-bd2f-40f0-9ed4-052a461fa74e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/AddCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateCourseAndStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/DeletePacmanCourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/GetCoursesForMaryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-mvc-demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo3/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -189,22 +189,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1290" />
+          <entry key="java" value="1563" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1290" />
+          <entry key="JAVA" value="1563" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -254,11 +254,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/AddCoursesForMaryDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+            <state relative-caret-position="189">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/GetCoursesForMaryDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/DeletePacmanCourseDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -306,6 +324,8 @@
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateCourseAndStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/AddCoursesForMaryDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/GetCoursesForMaryDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/DeletePacmanCourseDemo.java" />
       </list>
     </option>
   </component>
@@ -640,7 +660,7 @@
     <property name="SearchEverywhereHistoryKey" value="project&#9;ACTION&#9;ActivateProjectToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540564887411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540566022094" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -672,7 +692,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddCoursesForMaryDemo">
+  <component name="RunManager" selected="Application.DeleteMaryStudentDemo">
     <configuration name="AddCoursesForMaryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.AddCoursesForMaryDemo" />
       <module name="hibernate-tutorial" />
@@ -699,8 +719,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatedCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.CreatedCoursesAndReviewsDemo" />
+    <configuration name="DeleteMaryStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.DeleteMaryStudentDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -712,8 +732,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.DeleteCoursesAndReviewsDemo" />
+    <configuration name="DeletePacmanCourseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.DeletePacmanCourseDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -725,8 +745,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCoursesAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.GetCoursesAndReviewsDemo" />
+    <configuration name="GetCoursesForMaryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.GetCoursesForMaryDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -739,19 +759,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreatedCoursesAndReviewsDemo" />
-      <item itemvalue="Application.GetCoursesAndReviewsDemo" />
-      <item itemvalue="Application.DeleteCoursesAndReviewsDemo" />
       <item itemvalue="Application.CreateCourseAndStudentDemo" />
       <item itemvalue="Application.AddCoursesForMaryDemo" />
+      <item itemvalue="Application.GetCoursesForMaryDemo" />
+      <item itemvalue="Application.DeletePacmanCourseDemo" />
+      <item itemvalue="Application.DeleteMaryStudentDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteMaryStudentDemo" />
+        <item itemvalue="Application.DeletePacmanCourseDemo" />
+        <item itemvalue="Application.GetCoursesForMaryDemo" />
         <item itemvalue="Application.AddCoursesForMaryDemo" />
         <item itemvalue="Application.CreateCourseAndStudentDemo" />
-        <item itemvalue="Application.DeleteCoursesAndReviewsDemo" />
-        <item itemvalue="Application.GetCoursesAndReviewsDemo" />
-        <item itemvalue="Application.CreatedCoursesAndReviewsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -771,12 +791,12 @@
       <workItem from="1540394554030" duration="2325000" />
       <workItem from="1540407935702" duration="4695000" />
       <workItem from="1540558410543" duration="3068000" />
-      <workItem from="1540562740616" duration="1973000" />
+      <workItem from="1540562740616" duration="2964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28101000" />
+    <option name="totallyTimeSpent" value="29092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,8 +822,8 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.3608903" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.3608903" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3990461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3284553" />
@@ -1015,8 +1035,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/AddCoursesForMaryDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        <state relative-caret-position="189">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/DeletePacmanCourseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/GetCoursesForMaryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>

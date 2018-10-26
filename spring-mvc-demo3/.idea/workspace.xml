@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/AddCoursesForMaryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/CreateCourseAndStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/DeletePacmanCourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/GetCoursesForMaryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
