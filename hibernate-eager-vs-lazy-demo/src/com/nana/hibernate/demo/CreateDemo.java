@@ -1,15 +1,12 @@
 package com.nana.hibernate.demo;
 
-import com.nana.hibernate.demo.entity.Course;
 import com.nana.hibernate.demo.entity.Instructor;
 import com.nana.hibernate.demo.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.List;
-
-public class DeleteCoursesDemo {
+public class CreateDemo {
 
     public static void main(String[] args) {
 
@@ -18,7 +15,6 @@ public class DeleteCoursesDemo {
                                 .configure("hibernate.cfg.xml")
                                 .addAnnotatedClass(Instructor.class)
                                 .addAnnotatedClass(InstructorDetail.class)
-                                .addAnnotatedClass(Course.class)
                                 .buildSessionFactory();
 
         // create session
@@ -32,15 +28,22 @@ public class DeleteCoursesDemo {
             // save the insturctor
             // commit instructor
 
+            // Create object
+//            Instructor tempInstructor = new Instructor("Chad", "Darby", "darby@test.com");
+//            InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.test.com/youtube", "coding");
+
+            Instructor tempInstructor = new Instructor("Madh", "Patel", "Madh@test.com");
+            InstructorDetail tempInstructorDetail = new InstructorDetail("http://youtube.com", "guitar");
+
+            // Associate objects
+            tempInstructor.setInstructorDetail(tempInstructorDetail);
+
             // start a transaction
             session.beginTransaction();
 
-            // get a course
-            int theId = 10;
-            Course tempCourse = session.get(Course.class, theId);
-
-            // delete course
-            session.delete(tempCourse);
+            // save instructor will also save detailed object. because of CascadeType.All
+            System.out.println("Saving instructor..." + tempInstructor);
+            session.save(tempInstructor);
 
             // commit transaction
             session.getTransaction().commit();
@@ -48,7 +51,6 @@ public class DeleteCoursesDemo {
             System.out.println("Done!");
 
         } finally {
-            session.close();
             factory.close();
         }
 

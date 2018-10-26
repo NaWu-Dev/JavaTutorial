@@ -7,9 +7,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.List;
-
-public class DeleteCoursesDemo {
+public class CreateInstructorDemo {
 
     public static void main(String[] args) {
 
@@ -32,15 +30,18 @@ public class DeleteCoursesDemo {
             // save the insturctor
             // commit instructor
 
+            Instructor tempInstructor = new Instructor("Susan", "Public", "Madh@test.com");
+            InstructorDetail tempInstructorDetail = new InstructorDetail("http://youtube.com", "video game");
+
+            // Associate objects
+            tempInstructor.setInstructorDetail(tempInstructorDetail);
+
             // start a transaction
             session.beginTransaction();
 
-            // get a course
-            int theId = 10;
-            Course tempCourse = session.get(Course.class, theId);
-
-            // delete course
-            session.delete(tempCourse);
+            // save instructor will also save detailed object. because of CascadeType.All
+            System.out.println("Saving instructor..." + tempInstructor);
+            session.save(tempInstructor);
 
             // commit transaction
             session.getTransaction().commit();

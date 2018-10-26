@@ -1,15 +1,12 @@
 package com.nana.hibernate.demo;
 
-import com.nana.hibernate.demo.entity.Course;
 import com.nana.hibernate.demo.entity.Instructor;
 import com.nana.hibernate.demo.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.List;
-
-public class DeleteCoursesDemo {
+public class DeleteDemo {
 
     public static void main(String[] args) {
 
@@ -18,29 +15,25 @@ public class DeleteCoursesDemo {
                                 .configure("hibernate.cfg.xml")
                                 .addAnnotatedClass(Instructor.class)
                                 .addAnnotatedClass(InstructorDetail.class)
-                                .addAnnotatedClass(Course.class)
                                 .buildSessionFactory();
 
         // create session
         Session session = factory.getCurrentSession();
 
         try {
-            // Steps:
-            // Create object
-            // associate objects
-            // start a transaction
-            // save the insturctor
-            // commit instructor
-
             // start a transaction
             session.beginTransaction();
 
-            // get a course
-            int theId = 10;
-            Course tempCourse = session.get(Course.class, theId);
+            // get instructor by primary key (id)
+            int theId = 1;
+            Instructor tempInstructor = session.get(Instructor.class, theId);
 
-            // delete course
-            session.delete(tempCourse);
+            // delete instructor
+            if (tempInstructor != null) {
+                System.out.print("Deleting instructor..." + tempInstructor);
+                // deleting instructor will delete related instructor detail, because the cascadetype.all
+                session.delete(tempInstructor);
+            }
 
             // commit transaction
             session.getTransaction().commit();
@@ -48,7 +41,6 @@ public class DeleteCoursesDemo {
             System.out.println("Done!");
 
         } finally {
-            session.close();
             factory.close();
         }
 

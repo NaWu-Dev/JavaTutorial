@@ -9,7 +9,7 @@ import org.hibernate.cfg.Configuration;
 
 import java.util.List;
 
-public class DeleteCoursesDemo {
+public class GetInstructorCoursesDemo {
 
     public static void main(String[] args) {
 
@@ -35,12 +35,13 @@ public class DeleteCoursesDemo {
             // start a transaction
             session.beginTransaction();
 
-            // get a course
-            int theId = 10;
-            Course tempCourse = session.get(Course.class, theId);
+            // get instructor from db
+            int id = 1;
+            Instructor tempInstructor = session.get(Instructor.class, id);
 
-            // delete course
-            session.delete(tempCourse);
+            List<Course> courses = tempInstructor.getCourses();
+
+            System.out.println("Courses: " + courses);
 
             // commit transaction
             session.getTransaction().commit();

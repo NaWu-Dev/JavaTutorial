@@ -1,15 +1,12 @@
 package com.nana.hibernate.demo;
 
-import com.nana.hibernate.demo.entity.Course;
 import com.nana.hibernate.demo.entity.Instructor;
 import com.nana.hibernate.demo.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.List;
-
-public class DeleteCoursesDemo {
+public class DeleteInstructorDetailDemo {
 
     public static void main(String[] args) {
 
@@ -18,36 +15,36 @@ public class DeleteCoursesDemo {
                                 .configure("hibernate.cfg.xml")
                                 .addAnnotatedClass(Instructor.class)
                                 .addAnnotatedClass(InstructorDetail.class)
-                                .addAnnotatedClass(Course.class)
                                 .buildSessionFactory();
 
         // create session
         Session session = factory.getCurrentSession();
 
         try {
-            // Steps:
-            // Create object
-            // associate objects
-            // start a transaction
-            // save the insturctor
-            // commit instructor
-
             // start a transaction
             session.beginTransaction();
 
-            // get a course
-            int theId = 10;
-            Course tempCourse = session.get(Course.class, theId);
+            // get instructor detail object
+            int theId = 3;
+            InstructorDetail theInstructorDetail = session.get(InstructorDetail.class, theId);
 
-            // delete course
-            session.delete(tempCourse);
+            // remove associated object reference
+            // break bi-directional link
+            // delete instructor detail, this time won't delete associated instructor
+            theInstructorDetail.getInstructor().setInstructorDetail(null);
+            System.out.println("Deleting instructor detail...." + theInstructorDetail);
+            session.delete(theInstructorDetail);
 
             // commit transaction
             session.getTransaction().commit();
 
             System.out.println("Done!");
 
-        } finally {
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        finally {
             session.close();
             factory.close();
         }
