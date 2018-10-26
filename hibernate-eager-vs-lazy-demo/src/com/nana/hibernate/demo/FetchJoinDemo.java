@@ -6,10 +6,9 @@ import com.nana.hibernate.demo.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
-import java.util.List;
-
-public class EaderLazyDemo {
+public class FetchJoinDemo {
 
     public static void main(String[] args) {
 
@@ -35,13 +34,19 @@ public class EaderLazyDemo {
             // start a transaction
             session.beginTransaction();
 
+            //// *** Hibernate query with HQL
+
             // get instructor from db
-            int id = 1;
-            Instructor tempInstructor = session.get(Instructor.class, id);
+            int theId = 1;
 
-            System.out.println("Instructor: " + tempInstructor);
+            Query<Instructor> query = session.createQuery("select i from Instructor i "
+                                                            + "JOIN FETCH i.courses "
+                                                            + "where i.id =:theInstructorId",
+                                                            Instructor.class);
 
-            System.out.println("Courses: " + tempInstructor.getCourses());
+            query.setParameter("theInstructorId", theId);
+
+            Instructor tempInstructor = query.getSingleResult();
 
             // commit transaction
             session.getTransaction().commit();
@@ -49,7 +54,6 @@ public class EaderLazyDemo {
             session.close();
 
             System.out.println("Courses... : " + tempInstructor.getCourses());
-
 
             System.out.println("Done!");
 

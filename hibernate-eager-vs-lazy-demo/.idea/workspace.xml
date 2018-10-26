@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7f05c-bd2f-40f0-9ed4-052a461fa74e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,25 +158,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="97" />
+          <entry key="java" value="515" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="97" />
+          <entry key="JAVA" value="515" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -181,11 +184,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="274">
+              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/FetchJoinDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -283,8 +295,9 @@
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/nana/jdbc/TestJdbc.java" />
-        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java" />
         <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/nana/hibernate/demo/FetchJoinDemo.java" />
       </list>
     </option>
   </component>
@@ -630,7 +643,7 @@
     <property name="SearchEverywhereHistoryKey" value="project&#9;ACTION&#9;ActivateProjectToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540518074061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540519344536" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -661,7 +674,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EaderLazyDemo">
+  <component name="RunManager" selected="Application.FetchJoinDemo">
     <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.CreateInstructorDemo" />
       <module name="hibernate-tutorial" />
@@ -714,8 +727,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.GetInstructorCoursesDemo" />
+    <configuration name="FetchJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nana.hibernate.demo.FetchJoinDemo" />
       <module name="hibernate-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -730,17 +743,17 @@
     <list>
       <item itemvalue="Application.CreateInstructorDemo" />
       <item itemvalue="Application.CreatedCoursesDemo" />
-      <item itemvalue="Application.GetInstructorCoursesDemo" />
       <item itemvalue="Application.DeleteCoursesDemo" />
       <item itemvalue="Application.EaderLazyDemo" />
+      <item itemvalue="Application.FetchJoinDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FetchJoinDemo" />
         <item itemvalue="Application.EaderLazyDemo" />
         <item itemvalue="Application.CreatedCoursesDemo" />
         <item itemvalue="Application.CreateInstructorDemo" />
         <item itemvalue="Application.DeleteCoursesDemo" />
-        <item itemvalue="Application.GetInstructorCoursesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -759,12 +772,12 @@
       <workItem from="1540394393726" duration="126000" />
       <workItem from="1540394554030" duration="2325000" />
       <workItem from="1540407935702" duration="4320000" />
-      <workItem from="1540517252373" duration="905000" />
+      <workItem from="1540517252373" duration="2670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23590000" />
+    <option name="totallyTimeSpent" value="25355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,6 +790,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="706" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -789,8 +803,8 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.2111293" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39739415" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.31921825" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30456027" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32736155" />
@@ -818,16 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="tempInstructor" />
@@ -949,6 +953,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateInstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/entity/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -959,17 +970,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/CreateInstructorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="274">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/EaderLazyDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nana/hibernate/demo/FetchJoinDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="484">
+          <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
         </state>
       </provider>
     </entry>

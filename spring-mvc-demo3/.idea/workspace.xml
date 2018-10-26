@@ -7,35 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/artifacts/hibernate_tutorial_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/hibernate-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/CreateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/CreateInstructorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/CreatedCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/DeleteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/DeleteInstructorDetailDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/GetInstructorCoursesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/GetInstructorDetailDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/jdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/src/com/nana/hibernate/demo/DeleteCoursesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/FetchJoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-eager-vs-lazy-demo/src/com/nana/hibernate/demo/EaderLazyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -512,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="707" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
