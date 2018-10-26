@@ -7,27 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d82f5-1df4-45cd-9ebb-13ca70e957bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/artifacts/hibernate_tutorial_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/hibernate-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/out/production/hibernate-tutorial/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/CreatedCoursesAndReviewsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/entity/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/jdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-04-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/AddCoursesForMaryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/src/com/nana/hibernate/demo/CreateCourseAndStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-05-many-to-many/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
