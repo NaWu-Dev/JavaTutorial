@@ -7,6 +7,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="web-customer-tracker" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="antlr-2.7.7" />
+          <element id="library" level="project" name="spring-aop-5.0.2.RELEASE-javadoc" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.13" />
+        </element>
       </element>
     </root>
   </artifact>

@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7f05c-bd2f-40f0-9ed4-052a461fa74e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/javax.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/testdb/TestDbServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/spring_aop_5_0_2_RELEASE_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/list-customers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-mvc-demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-demo3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/artifacts/web_customer_tracker_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/artifacts/web_customer_tracker_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/javax.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -286,8 +294,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/nana/jdbc/TestJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="120">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -699,7 +707,7 @@
     <property name="SearchEverywhereHistoryKey" value="project&#9;ACTION&#9;ActivateProjectToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540922730207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541004592596" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -831,12 +839,12 @@
       <workItem from="1540407935702" duration="4695000" />
       <workItem from="1540558410543" duration="3068000" />
       <workItem from="1540562740616" duration="6540000" />
-      <workItem from="1540921810014" duration="782000" />
+      <workItem from="1540921810014" duration="1543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33450000" />
+    <option name="totallyTimeSpent" value="34211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nana/jdbc/TestJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="120">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
