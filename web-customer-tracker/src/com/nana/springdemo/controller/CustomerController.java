@@ -2,6 +2,7 @@ package com.nana.springdemo.controller;
 
 import com.nana.springdemo.dao.CustomerDAO;
 import com.nana.springdemo.entity.Customer;
+import com.nana.springdemo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,16 +16,15 @@ import java.util.List;
 @RequestMapping("/customer")
 public class CustomerController {
 
-    // need to inject the customer dao
+    // need to inject the customer service instead of customer DAO
     @Autowired
-    private CustomerDAO customerDAO;
-
+    private CustomerService customerService;
 
     @GetMapping("/list")
     public String listCustomer(Model theModel) {
 
         // get customer from the dao
-        List<Customer> theCustomers = customerDAO.getCustomers();
+        List<Customer> theCustomers = customerService.getCustomers();
 
         // add the customers to model
         theModel.addAttribute("customers", theCustomers);
