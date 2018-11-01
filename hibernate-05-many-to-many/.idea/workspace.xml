@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd7f05c-bd2f-40f0-9ed4-052a461fa74e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/javax_servlet_jsp_jstl_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/artifacts/web_customer_tracker_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/artifacts/web_customer_tracker_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/view/list-customers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/dao/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/dao/CustomerDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web-customer-tracker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/list-customers.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -372,7 +368,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="716" />
@@ -702,7 +698,7 @@
     <property name="SearchEverywhereHistoryKey" value="project&#9;ACTION&#9;ActivateProjectToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541011498831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541081030840" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -851,7 +847,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28271407" />

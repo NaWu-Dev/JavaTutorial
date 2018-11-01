@@ -4,6 +4,11 @@
 
 <head>
     <title>List customers</title>
+
+    <!-- referenece our style sheet -->
+    <link type="text/css"
+          rel="stylesheet"
+          href="${pageContext.request.contextPath}/resources/css/style.css"/>
 </head>
 
 <body>
@@ -21,12 +26,14 @@
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
+                    <th>Tel</th>
                 </tr>
                 <c:forEach var="tempCustomer" items="${customers}">
                     <tr>
                         <td>${tempCustomer.firstName}</td>
                         <td>${tempCustomer.lastName}</td>
                         <td>${tempCustomer.email}</td>
+                        <td>${tempCustomer.tel}</td>
                     </tr>
                 </c:forEach>
             </table>

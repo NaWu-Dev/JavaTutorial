@@ -20,6 +20,17 @@ public class Customer {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "telephone")
+    private String tel;
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
+    }
+
     public Customer() {
 
     }
