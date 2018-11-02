@@ -78,4 +78,12 @@ public class Customer {
     public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

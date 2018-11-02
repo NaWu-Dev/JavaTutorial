@@ -12,6 +12,7 @@
           <element id="library" level="project" name="spring-aop-5.0.2.RELEASE-javadoc" />
           <element id="library" level="project" name="mysql-connector-java-8.0.13" />
           <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-1.2.1" />
         </element>
       </element>
     </root>
