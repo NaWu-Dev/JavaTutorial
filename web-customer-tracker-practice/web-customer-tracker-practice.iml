@@ -23,5 +23,6 @@
     <orderEntry type="library" name="mysql-connector-java-8.0.13" level="project" />
     <orderEntry type="library" name="spring-aop-5.0.2.RELEASE-javadoc" level="project" />
     <orderEntry type="library" name="antlr-2.7.7" level="project" />
+    <orderEntry type="library" name="c3p0-0.9.5.2" level="project" />
   </component>
 </module>
