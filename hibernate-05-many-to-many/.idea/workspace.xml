@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5bd7f05c-bd2f-40f0-9ed4-052a461fa74e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/view/list-customers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/dao/CustomerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/dao/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/dao/CustomerDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/src/com/nana/springdemo/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/list-customers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/web/WEB-INF/view/list-customers.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -696,7 +701,7 @@
     <property name="SearchEverywhereHistoryKey" value="project&#9;ACTION&#9;ActivateProjectToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164891587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541167294898" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
