@@ -49,7 +49,9 @@ public class CustomerDAOImpl implements CustomerDAO {
         Session currentSession = sessionFactory.getCurrentSession();
 
         // save customer to db
-        currentSession.save(theCustomer);
+        //currentSession.save(theCustomer);
+        // saveOrUpdate will do save or update based on primary key / id, if primary key is empty will execute save, otherwise will update
+        currentSession.saveOrUpdate(theCustomer);
 
     }
 
