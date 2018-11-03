@@ -3,6 +3,7 @@ package com.nana.springdemo.entity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "customer")
@@ -24,6 +25,17 @@ public class Customer {
 
     @Column(name = "telephone")
     private String telephone;
+
+    @OneToMany(mappedBy = "customer")
+    private List<CustomerContacts> customerContactsList;
+
+    public List<CustomerContacts> getCustomerContactsList() {
+        return customerContactsList;
+    }
+
+    public void setCustomerContactsList(List<CustomerContacts> customerContactsList) {
+        this.customerContactsList = customerContactsList;
+    }
 
     public Customer() {
 

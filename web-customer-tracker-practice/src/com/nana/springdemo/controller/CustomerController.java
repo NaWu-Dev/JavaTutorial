@@ -1,6 +1,7 @@
 package com.nana.springdemo.controller;
 
 import com.nana.springdemo.entity.Customer;
+import com.nana.springdemo.entity.CustomerContacts;
 import com.nana.springdemo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,6 +24,8 @@ public class CustomerController {
         List<Customer> theCustomers = customerService.listCustomers();
 
         theModel.addAttribute("customers", theCustomers);
+
+        List<CustomerContacts> theContcts = customerService.listCustomerContacts(1);
 
         return "customer-list";
     }

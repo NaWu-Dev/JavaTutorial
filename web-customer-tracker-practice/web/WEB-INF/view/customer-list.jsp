@@ -19,13 +19,16 @@
         </tr>
 
         <c:forEach var="tempCustomer" items="${customers}">
-        <tr>
-            <td>${tempCustomer.id}</td>
-            <td>${tempCustomer.firstName}</td>
-            <td>${tempCustomer.lastName}</td>
-            <td>${tempCustomer.email}</td>
-            <td>${tempCustomer.telephone}</td>
-        </tr>
+
+
+
+            <tr>
+                <td>${tempCustomer.id}</td>
+                <td>${tempCustomer.firstName}</td>
+                <td>${tempCustomer.lastName}</td>
+                <td>${tempCustomer.email}</td>
+                <td>${tempCustomer.customerContactsList}</td>
+            </tr>
         </c:forEach>
 
     </table>
