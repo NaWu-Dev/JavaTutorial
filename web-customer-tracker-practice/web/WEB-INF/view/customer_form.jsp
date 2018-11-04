@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<h2>Customer Form</h2>
+<h2>Customer Form Test</h2>
 
 <form:form method="POST" action="saveCustomer" modelAttribute="customer" >
 
