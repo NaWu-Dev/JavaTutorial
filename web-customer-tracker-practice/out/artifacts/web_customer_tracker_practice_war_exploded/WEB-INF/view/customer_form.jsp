@@ -14,7 +14,6 @@
 <form:form method="POST" action="saveCustomer" modelAttribute="customer" >
 
     <form:hidden path="id"/>
-    <form:hidden path="customerContactsList[0].telephoneId"/>
 
     <table>
         <tr>
@@ -29,10 +28,13 @@
             <td>Email: </td>
             <td><form:input path="email"/></td>
         </tr>
-        <tr>
-            <td>Telephone: </td>
-            <td><form:input path="customerContactsList[0].telephoneNumber"/></td>
-        </tr>
+        <c:forEach var="tempContact" items="${customer.customerContactsList}" varStatus="tempContact_status">
+            <form:hidden path="customerContactsList[${tempContact_status.index}].telephoneId"/>
+            <tr>
+                <td>Telephone ${tempContact_status.index+1}: </td>
+                <td><form:input path="customerContactsList[${tempContact_status.index}].telephoneNumber" /></td>
+            </tr>
+        </c:forEach>
         <tr>
             <td></td>
             <td><input type="submit" value="Save"></td>
