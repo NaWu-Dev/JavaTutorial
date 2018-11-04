@@ -28,13 +28,25 @@
             <td>Email: </td>
             <td><form:input path="email"/></td>
         </tr>
-        <c:forEach var="tempContact" items="${customer.customerContactsList}" varStatus="tempContact_status">
-            <form:hidden path="customerContactsList[${tempContact_status.index}].telephoneId"/>
-            <tr>
-                <td>Telephone ${tempContact_status.index+1}: </td>
-                <td><form:input path="customerContactsList[${tempContact_status.index}].telephoneNumber" /></td>
-            </tr>
-        </c:forEach>
+
+        <c:choose>
+            <c:when test="${customer.customerContactsList.size() > 0}">
+                <c:forEach var="tempContact" items="${customer.customerContactsList}" varStatus="tempContact_status">
+                    <form:hidden path="customerContactsList[${tempContact_status.index}].telephoneId"/>
+                    <tr>
+                        <td>Telephone ${tempContact_status.index+1}: </td>
+                        <td><form:input path="customerContactsList[${tempContact_status.index}].telephoneNumber" /></td>
+                    </tr>
+                </c:forEach>
+            </c:when>
+            <c:otherwise>
+                <tr>
+                    <td>Telephone : </td>
+                    <td><form:input path="customerContactsList[0].telephoneNumber" /></td>
+                </tr>
+            </c:otherwise>
+        </c:choose>
+
         <tr>
             <td></td>
             <td><input type="submit" value="Save"></td>
