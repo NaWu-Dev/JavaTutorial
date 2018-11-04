@@ -26,7 +26,7 @@ public class Customer {
     @Column(name = "telephone")
     private String telephone;
 
-    @OneToMany(mappedBy = "customer")
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<CustomerContacts> customerContactsList;
 
     public List<CustomerContacts> getCustomerContactsList() {

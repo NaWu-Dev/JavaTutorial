@@ -9,4 +9,8 @@ public interface CustomerService {
     public List<Customer> listCustomers();
 
     public List<CustomerContacts> listCustomerContacts(int customerId);
+
+    public void saveCustomer(Customer theCustomer);
+
+    public void saveCustomerContacts(Customer theCustomer);
 }

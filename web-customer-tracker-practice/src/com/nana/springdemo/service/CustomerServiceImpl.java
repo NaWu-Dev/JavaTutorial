@@ -32,4 +32,16 @@ public class CustomerServiceImpl implements CustomerService {
         List<CustomerContacts> customerContacts = customerContactsDAO.listCustomerContacts(customerId);
         return customerContacts;
     }
+
+    @Override
+    @Transactional
+    public void saveCustomer(Customer theCustomer) {
+        customerDAO.saveCustomer(theCustomer);
+    }
+
+    @Override
+    @Transactional
+    public void saveCustomerContacts(Customer theCustomer) {
+        customerContactsDAO.saveCustomerContacts(theCustomer);
+    }
 }
