@@ -42,7 +42,7 @@ public class CustomerContactsDAOImpl implements CustomerContactsDAO {
 
         customerContacts.setCustomer(theCustomer);
 
-        customerContacts.setTelephoneNumber(theCustomer.getTelephone());
+        customerContacts.setTelephoneNumber(theCustomer.getCustomerContactsList().get(0).getTelephoneNumber());
 
         session.saveOrUpdate(customerContacts);
 

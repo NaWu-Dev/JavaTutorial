@@ -6,10 +6,7 @@ import com.nana.springdemo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -43,12 +40,24 @@ public class CustomerController {
     @PostMapping("/saveCustomer")
     public String saveCustomer(@ModelAttribute("customer") Customer theCustomer) {
 
-        customerService.saveCustomer(theCustomer);
+        for (CustomerContacts tempCustomerContact : theCustomer.getCustomerContactsList()) {
+            tempCustomerContact.setCustomer(theCustomer);
+        }
 
-        customerService.saveCustomerContacts(theCustomer);
+        customerService.saveCustomer(theCustomer);
 
         return "redirect:/customer/list";
 
+    }
+
+    @GetMapping("/updateCustomer")
+    public String updateCustomer(Model theModel, @RequestParam("customerId") int id) {
+
+        Customer theCustomer = customerService.getCustomer(id);
+
+        theModel.addAttribute("customer", theCustomer);
+
+        return "customer_form";
     }
 
 }

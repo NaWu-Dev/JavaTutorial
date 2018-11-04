@@ -20,9 +20,15 @@
             <th>Last Name</th>
             <th>Email</th>
             <th>Contacts List</th>
+            <th>Action</th>
         </tr>
 
         <c:forEach var="tempCustomer" items="${customers}">
+
+            <c:url var="linkUpdate" value="/customer/updateCustomer">
+                <c:param name="customerId" value="${tempCustomer.id}"/>
+            </c:url>
+
             <tr>
                 <td>${tempCustomer.id}</td>
                 <td>${tempCustomer.firstName}</td>
@@ -31,6 +37,7 @@
                 <c:forEach var="tempTelephone" items="${tempCustomer.customerContactsList}">
                     <td>${tempTelephone.telephoneNumber}, </td>
                 </c:forEach>
+                <td><a href="${linkUpdate}">Edit</a></td>
             </tr>
         </c:forEach>
 
