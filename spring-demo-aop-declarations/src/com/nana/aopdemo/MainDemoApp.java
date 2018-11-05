@@ -17,7 +17,7 @@ public class MainDemoApp {
         MembershipDAO theMembershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
 
         // call the business method
-        Account theAccount = new Account();
+        Account theAccount = new Account("Madhu", "Plaium");
         theAccountDAO.addAccount(theAccount, true);
         theAccountDAO.doWork();
 
