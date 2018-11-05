@@ -14,13 +14,15 @@ public class MainDemoApp {
 
         // get the bean from spring container
         AccountDAO theAccountDAO = context.getBean("accountDAO", AccountDAO.class);
-
         MembershipDAO theMembershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
 
         // call the business method
-        theAccountDAO.addAccount();
+        Account theAccount = new Account();
+        theAccountDAO.addAccount(theAccount, true);
+        theAccountDAO.doWork();
 
-        theMembershipDAO.addMember();
+        theMembershipDAO.addAccount();
+        theMembershipDAO.goToSleep();
 
         // close the context
         context.close();
