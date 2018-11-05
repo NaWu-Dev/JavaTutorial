@@ -12,7 +12,10 @@ public class MyDemoLoggingAspect {
 
     // let's start with an @Before advice
 
-    @Before("execution(public void testAccount())")
+    //@Before("execution(public void testAccount())")
+    //@Before("execution(* void com.nana.aopdemo.dao.AccountDAO.addAccount())")
+    //@Before("execution(* void add*())")
+    @Before("execution(* add*())")
     public void beforeAddAccountAdvice() {
         System.out.println("\n==========>>>>>>> Executing @Before advice on addAccount()");
     }
