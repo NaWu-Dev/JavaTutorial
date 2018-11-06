@@ -2,6 +2,7 @@ package com.nana.aopdemo.aspect;
 
 import com.nana.aopdemo.Account;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -9,10 +10,26 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Aspect
 @Component
 @Order(2)
 public class MyDemoLoggingAspect {
+
+    // Add a new advice for @AfterReturning on the findAccoutns method
+    @AfterReturning(
+            pointcut ="execution(* com.nana.aopdemo.dao.AccountDAO.findAccounts(..))",
+            returning = "result"
+    )
+    public void afterReturningFindAccountsAdvice(JoinPoint theJoinPoint, List<Account> result){
+
+        String method = theJoinPoint.getSignature().toShortString();
+        System.out.println("\n-------------> Executing @AfterReturning on method: " + method);
+
+        System.out.println("\n-------------> result is: " + result);
+
+    }
 
     @Before("com.nana.aopdemo.aspect.AopExpression.forDaoPackageNoGetterSetter()")
     public void beforeAddAccountAdvice(JoinPoint theJoinPoint) {
