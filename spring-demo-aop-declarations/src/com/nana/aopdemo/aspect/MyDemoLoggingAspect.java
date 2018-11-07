@@ -1,6 +1,7 @@
 package com.nana.aopdemo.aspect;
 
 import com.nana.aopdemo.Account;
+import com.sun.deploy.cache.Cache;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -27,7 +28,19 @@ public class MyDemoLoggingAspect {
 
         long begin = System.currentTimeMillis();
 
-        Object result = theProceedingJoinPoint.proceed();
+        Object result = null;
+        try{
+            result = theProceedingJoinPoint.proceed();
+        } catch (Exception ex) {
+            // log the exception
+            myLogger.warning(ex.getMessage());
+
+            // give user a custom message
+            // result = "Major Accident!!!! but no worries. ";
+
+            // rethrow exception
+            throw ex; 
+        }
 
         long end = System.currentTimeMillis();
 
