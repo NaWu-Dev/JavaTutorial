@@ -16,7 +16,7 @@
 		http://www.springframework.org/schema/aop/spring-aop.xsd
 		http://www.springframework.org/schema/tx 
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
-	
+
 	<!-- add AspectJ autoProxy supportt for AOP -->
 	<aop:aspectj-autoproxy/>
 
