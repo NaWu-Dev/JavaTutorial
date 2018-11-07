@@ -23,7 +23,7 @@ public class MyDemoLoggingAspect {
             ProceedingJoinPoint theProceedingJoinPoint) throws Throwable {
 
         String method = theProceedingJoinPoint.getSignature().toShortString();
-        System.out.println("\n\n====>>> Executing @Around on method: " + method);
+        myLogger.info("\n\n====>>> Executing @Around on method: " + method);
 
         long begin = System.currentTimeMillis();
 
@@ -33,7 +33,7 @@ public class MyDemoLoggingAspect {
 
         long duration = end - begin;
 
-        System.out.println("====>>> Duration: " + duration / 1000 + " seconds" );
+        myLogger.info("====>>> Duration: " + duration / 1000 + " seconds" );
 
         return result;
 
@@ -45,7 +45,7 @@ public class MyDemoLoggingAspect {
 
         String method = theJoinPoint.getSignature().toShortString();
 
-        System.out.println("\n\n@AFter: " + method);
+        myLogger.info("\n\n@AFter: " + method);
 
     }
 
@@ -57,7 +57,7 @@ public class MyDemoLoggingAspect {
 
         String method = theJoinPoint.getSignature().toShortString();
 
-        System.out.println("\n\n" + method + "====== @AFterThrowing exception: " + theException);
+        myLogger.info("\n\n" + method + "====== @AFterThrowing exception: " + theException);
 
     }
 
@@ -69,14 +69,14 @@ public class MyDemoLoggingAspect {
     public void afterReturningFindAccountsAdvice(JoinPoint theJoinPoint, List<Account> result){
 
         String method = theJoinPoint.getSignature().toShortString();
-        System.out.println("\n-------------> Executing @AfterReturning on method: " + method);
+        myLogger.info("\n-------------> Executing @AfterReturning on method: " + method);
 
-        System.out.println("\n-------------> result is: " + result);
+        myLogger.info("\n-------------> result is: " + result);
 
         // post-process the data... modify return data
         // convert the account name to uppercase
         convertAccountNamesToUpperCase(result);
-        System.out.println("\n-------------> result is: " + result);
+        myLogger.info("\n-------------> result is: " + result);
 
     }
 
@@ -93,12 +93,12 @@ public class MyDemoLoggingAspect {
     @Before("com.nana.aopdemo.aspect.AopExpression.forDaoPackageNoGetterSetter()")
     public void beforeAddAccountAdvice(JoinPoint theJoinPoint) {
 
-        System.out.println("\n==========>>>>>>> Executing @Before advice on addAccount()");
+        myLogger.info("\n==========>>>>>>> Executing @Before advice on addAccount()");
 
         // display method signature
         MethodSignature methodSignature = (MethodSignature) theJoinPoint.getSignature();
 
-        System.out.println("Method:" + methodSignature);
+        myLogger.info("Method:" + methodSignature);
 
         // display method argument
 
@@ -107,12 +107,12 @@ public class MyDemoLoggingAspect {
 
         // loop the arguments and print out
         for (Object tempArg : args){
-            System.out.println(tempArg);
+            myLogger.info(tempArg.toString());
             if (tempArg instanceof Account) {
                 // downcast and print Account specific stuff
                 Account theAccount = (Account) tempArg;
-                System.out.println("Account name: " + theAccount.getName());
-                System.out.println("Account level: " + theAccount.getLevel());
+                myLogger.info("Account name: " + theAccount.getName());
+                myLogger.info("Account level: " + theAccount.getLevel());
             }
         }
 
