@@ -9,11 +9,14 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 @Aspect
 @Component
 @Order(2)
 public class MyDemoLoggingAspect {
+
+    private Logger myLogger = Logger.getLogger(getClass().getName());
 
     @Around("execution(* com.nana.aopdemo.service.*.getFortune(..))")
     public Object aroundGetFortune(
