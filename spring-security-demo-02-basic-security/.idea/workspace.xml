@@ -7,44 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a3abe7-f4e2-4c9d-9342-5c4251f5b8ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_security_demo_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_security_demo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/DemoAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luv2code/springsecurity/demo/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-security-demo/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/DemoSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/SecurityWebApplicationInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-03-one-to-many/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mycoolwebapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycoolwebapp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-demo-annotations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo-annotations/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-demo-aop-declarations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo-aop-declarations/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-demo-aop-declarations/src/com/nana/aopdemo/aspect/MyDemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo-aop-declarations/src/com/nana/aopdemo/aspect/MyDemoLoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-demo-aop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo-aop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-security-demo-01-base-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-security-demo-01-base-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker-aop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker-aop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker-aop/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/spring-mvc-crud-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker-aop/out/artifacts/web_customer_tracker_war_exploded/WEB-INF/spring-mvc-crud-demo-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-customer-tracker-aop/src/com/nana/springdemo/aspect/CRMLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker-aop/src/com/nana/springdemo/aspect/CRMLoggingAspect.java" afterDir="false" />
@@ -104,23 +75,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="115" />
+          <entry key="java" value="248" />
+          <entry key="xml" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="115" />
+          <entry key="JAVA" value="248" />
+          <entry key="XML" value="120" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state relative-caret-position="461">
+              <caret line="37" column="59" lean-forward="true" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/SecurityWebApplicationInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="96" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/DemoSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="85" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/SecurityWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/DemoSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -264,29 +270,29 @@
           <expand>
             <path>
               <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo-02-basic-security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo-02-basic-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo-02-basic-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo-02-basic-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo-02-basic-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -294,36 +300,12 @@
             </path>
             <path>
               <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-security-demo-02-basic-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-security-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-security-demo-01-base-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,7 +317,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541813212489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541814402316" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -437,12 +419,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541726505641</updated>
       <workItem from="1541726506976" duration="2397000" />
-      <workItem from="1541813360530" duration="259000" />
+      <workItem from="1541813360530" duration="872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2656000" />
+    <option name="totallyTimeSpent" value="3269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -491,8 +473,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        <state relative-caret-position="461">
+          <caret line="37" column="59" lean-forward="true" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -533,6 +515,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/SecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="96" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nana/springsecurity/demo/config/DemoSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
