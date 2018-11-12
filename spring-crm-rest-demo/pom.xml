@@ -2,15 +2,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.luv2code.springdemo</groupId>
+	<groupId>com.nana.springdemo</groupId>
 	<artifactId>spring-crm-rest</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
 	<properties>
 		<springframework.version>5.0.6.RELEASE</springframework.version>
-		<hibernate.version>5.2.16.Final</hibernate.version>
-		<mysql.connector.version>5.1.45</mysql.connector.version>
+		<hibernate.version>5.3.7.Final</hibernate.version>
+		<mysql.connector.version>8.0.13</mysql.connector.version>
 		<c3po.version>0.9.5.2</c3po.version>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -78,13 +78,6 @@
 			<artifactId>javax.servlet.jsp-api</artifactId>
 			<version>2.3.1</version>
 		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
-
 
 		<!-- to compensate for java 9 not including jaxb -->
 		<dependency>
