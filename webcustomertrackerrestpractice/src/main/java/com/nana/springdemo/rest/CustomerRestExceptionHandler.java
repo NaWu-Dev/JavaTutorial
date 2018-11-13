@@ -28,7 +28,7 @@ public class CustomerRestExceptionHandler {
                 HttpStatus.BAD_REQUEST.value(), exc.getMessage(), System.currentTimeMillis()
         );
 
-        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST); 
+        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
 
     }
 
