@@ -1,6 +1,10 @@
 package com.nana.practice.service;
 
+import com.nana.practice.dao.AccountDAO;
+import com.nana.practice.dao.HostDAO;
 import com.nana.practice.dao.UserDAO;
+import com.nana.practice.entity.Account;
+import com.nana.practice.entity.Host;
 import com.nana.practice.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,11 +18,31 @@ public class AccountServiceImpl implements AccountService {
     @Autowired
     private UserDAO userDAO;
 
+    @Autowired
+    private HostDAO hostDAO;
+
+    @Autowired
+    private AccountDAO accountDAO;
+
     @Override
     @Transactional
     public List<User> listUsers() {
         List<User> users = userDAO.listUsers();
         return users;
+    }
+
+    @Override
+    @Transactional
+    public List<Host> listHosts() {
+        List<Host> hosts = hostDAO.listHosts();
+        return hosts;
+    }
+
+    @Override
+    @Transactional
+    public List<Account> listAccounts() {
+        List<Account> accounts = accountDAO.listAccounts();
+        return accounts;
     }
 
 }

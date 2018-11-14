@@ -1,6 +1,9 @@
 package com.nana.practice.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 
@@ -24,12 +27,22 @@ public class Account {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "userId")
-    @JsonBackReference
+    // @JsonBackReference
+    // serialize User
+    @JsonIdentityInfo(
+            generator = ObjectIdGenerators.PropertyGenerator.class,
+            property = "userId"
+    )
     private User user;
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "hostId")
-    @JsonBackReference
+    // @JsonBackReference
+    // serialize host
+    @JsonIdentityInfo(
+            generator = ObjectIdGenerators.PropertyGenerator.class,
+            property = "hostId"
+    )
     private Host host;
 
     public Account() {}

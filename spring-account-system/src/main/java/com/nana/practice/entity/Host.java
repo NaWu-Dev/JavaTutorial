@@ -1,6 +1,8 @@
 package com.nana.practice.entity;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 import java.util.List;
@@ -21,7 +23,11 @@ public class Host {
     private String hostDescription;
 
     @OneToMany(mappedBy = "host", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JsonManagedReference
+    // @JsonManagedReference
+    @JsonIdentityInfo(
+            generator = ObjectIdGenerators.PropertyGenerator.class,
+            property = "accountId"
+    )
     private List<Account> hostAccount;
 
     public List<Account> getHostAccount() {

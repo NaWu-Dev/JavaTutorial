@@ -4,13 +4,14 @@
 
 <h3>User API</h3>
 <a href="${pageContext.request.contextPath}/api/users">Get - Users</a>
-<a href="${pageContext.request.contextPath}">test</a>
 <hr>
 
 <h3>Host API</h3>
+<a href="${pageContext.request.contextPath}/api/hosts">Get - Hosts</a>
 <hr>
 
 <h3>Account API</h3>
+<a href="${pageContext.request.contextPath}/api/accounts">Get - Accounts</a>
 
 </body>
 </html>
