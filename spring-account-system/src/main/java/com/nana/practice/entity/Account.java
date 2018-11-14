@@ -27,22 +27,22 @@ public class Account {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "userId")
-    // @JsonBackReference
+    @JsonBackReference
     // serialize User
-    @JsonIdentityInfo(
+    /*@JsonIdentityInfo(
             generator = ObjectIdGenerators.PropertyGenerator.class,
             property = "userId"
-    )
+    )*/
     private User user;
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "hostId")
-    // @JsonBackReference
+    @JsonBackReference
     // serialize host
-    @JsonIdentityInfo(
+    /*@JsonIdentityInfo(
             generator = ObjectIdGenerators.PropertyGenerator.class,
             property = "hostId"
-    )
+    )*/
     private Host host;
 
     public Account() {}

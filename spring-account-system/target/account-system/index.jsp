@@ -21,19 +21,19 @@
 <h3>User API</h3>
 <a href="${pageContext.request.contextPath}/api/users">Get - Users</a><br>
 <input type="text" id="userId" name="userId" oninput="getValue()"/>
-<a id="linkGetUser" href="">Get - User</a>
+<a id="linkGetUser" href="${pageContext.request.contextPath}/api/users/">Get - User</a>
 <hr>
 
 <h3>Host API</h3>
 <a href="${pageContext.request.contextPath}/api/hosts">Get - Hosts</a><br>
 <input type="text" id="hostId" name="hostId" oninput="getValue()"/>
-<a id="linkGetHost" href="">Get - Host</a>
+<a id="linkGetHost" href="${pageContext.request.contextPath}/api/hosts/">Get - Host</a>
 <hr>
 
 <h3>Account API</h3>
 <a href="${pageContext.request.contextPath}/api/accounts">Get - Accounts</a><br>
 <input type="text" id="accountId" name="accountId" oninput="getValue()"/>
-<a id="linkGetAccount" href="">Get - Account</a>
+<a id="linkGetAccount" href="${pageContext.request.contextPath}/api/accounts/">Get - Account</a>
 
 </body>
 </html>

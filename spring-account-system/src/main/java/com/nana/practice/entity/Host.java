@@ -23,11 +23,11 @@ public class Host {
     private String hostDescription;
 
     @OneToMany(mappedBy = "host", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    // @JsonManagedReference
-    @JsonIdentityInfo(
+    @JsonManagedReference
+    /*@JsonIdentityInfo(
             generator = ObjectIdGenerators.PropertyGenerator.class,
             property = "accountId"
-    )
+    )*/
     private List<Account> hostAccount;
 
     public List<Account> getHostAccount() {

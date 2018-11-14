@@ -11,6 +11,7 @@ public interface AccountService {
     // ***** Users methods *****
     public List<User> listUsers();
     public User getUser(int userId);
+    public String addUser(User theUser);
 
     // ***** Host methods *****
     public List<Host> listHosts();

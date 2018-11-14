@@ -38,4 +38,15 @@ public class UserDAOImpl implements UserDAO {
         return theUser;
     }
 
+    @Override
+    public String addUser(User theUser) {
+
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        currentSession.saveOrUpdate(theUser);
+
+        return "Add user success.";
+
+    }
+
 }

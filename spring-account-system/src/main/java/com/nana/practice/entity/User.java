@@ -21,12 +21,12 @@ public class User {
     private String userName;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    // @JsonManagedReference
+    @JsonManagedReference
     // serialize Account
-    @JsonIdentityInfo(
+    /*@JsonIdentityInfo(
             generator = ObjectIdGenerators.PropertyGenerator.class,
             property = "accountId"
-    )
+    )*/
     private List<Account> userAccount;
 
     public User() {}

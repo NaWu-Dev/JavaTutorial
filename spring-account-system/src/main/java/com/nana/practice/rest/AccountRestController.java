@@ -5,10 +5,7 @@ import com.nana.practice.entity.Host;
 import com.nana.practice.entity.User;
 import com.nana.practice.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -29,6 +26,12 @@ public class AccountRestController {
     @GetMapping("/users/{userId}")
     public User getUser(@PathVariable int userId) {
         return accountService.getUser(userId);
+    }
+
+    @PostMapping("/users")
+    public String addUser(@RequestBody User theUser) {
+        accountService.addUser(theUser);
+        return "SUCCESS";
     }
 
     // ***** Host API *****

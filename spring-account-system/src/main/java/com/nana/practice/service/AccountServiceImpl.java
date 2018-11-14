@@ -39,6 +39,13 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     @Transactional
+    public String addUser(User theUser) {
+        theUser.setUserId(0); // new user, need to set user id as 0
+        return userDAO.addUser(theUser);
+    }
+
+    @Override
+    @Transactional
     public List<Host> listHosts() {
         List<Host> hosts = hostDAO.listHosts();
         return hosts;
