@@ -8,4 +8,6 @@ public interface HostDAO {
 
     public List<Host> listHosts();
 
+    public Host getHost(int hostId);
+
 }

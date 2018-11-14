@@ -38,6 +38,11 @@ public class AccountRestController {
         return accountService.listHosts();
     }
 
+    @GetMapping("hosts/{hostId}")
+    public Host getHost(@PathVariable int hostId) {
+        return accountService.getHost(hostId);
+    }
+
     // ***** Account API *****
 
     @GetMapping("/accounts")
@@ -45,5 +50,9 @@ public class AccountRestController {
         return accountService.listAccounts();
     }
 
+    @GetMapping("/accounts/{accountId}")
+    public Account getAccount(@PathVariable int accountId) {
+        return accountService.getAccount(accountId);
+    }
 
 }

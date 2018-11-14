@@ -46,9 +46,21 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     @Transactional
+    public Host getHost(int hostId) {
+        return hostDAO.getHost(hostId);
+    }
+
+    @Override
+    @Transactional
     public List<Account> listAccounts() {
         List<Account> accounts = accountDAO.listAccounts();
         return accounts;
+    }
+
+    @Override
+    @Transactional
+    public Account getAccount(int accountId) {
+        return accountDAO.getAccount(accountId);
     }
 
 }

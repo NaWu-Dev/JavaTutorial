@@ -8,4 +8,6 @@ public interface AccountDAO {
 
     public List<Account> listAccounts();
 
+    public Account getAccount(int accountId);
+
 }

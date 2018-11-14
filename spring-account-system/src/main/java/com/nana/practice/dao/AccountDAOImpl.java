@@ -29,4 +29,11 @@ public class AccountDAOImpl implements AccountDAO {
 
     }
 
+    @Override
+    public Account getAccount(int accountId) {
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        return currentSession.get(Account.class, accountId);
+    }
+
 }

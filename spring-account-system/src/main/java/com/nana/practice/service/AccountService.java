@@ -14,8 +14,10 @@ public interface AccountService {
 
     // ***** Host methods *****
     public List<Host> listHosts();
+    public Host getHost(int hostId);
 
     // ***** Accounts *****
     public List<Account> listAccounts();
+    public Account getAccount(int accountId);
 
 }

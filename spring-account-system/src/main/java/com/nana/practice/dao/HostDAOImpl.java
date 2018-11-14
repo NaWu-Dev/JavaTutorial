@@ -28,4 +28,13 @@ public class HostDAOImpl implements HostDAO {
 
     }
 
+    @Override
+    public Host getHost(int hostId) {
+
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        return currentSession.get(Host.class, hostId);
+
+    }
+
 }
