@@ -10,6 +10,7 @@ public interface AccountService {
 
     // ***** Users methods *****
     public List<User> listUsers();
+    public User getUser(int userId);
 
     // ***** Host methods *****
     public List<Host> listHosts();

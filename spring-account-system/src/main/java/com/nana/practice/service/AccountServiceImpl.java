@@ -33,6 +33,12 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     @Transactional
+    public User getUser(int userId) {
+        return userDAO.getUser(userId);
+    }
+
+    @Override
+    @Transactional
     public List<Host> listHosts() {
         List<Host> hosts = hostDAO.listHosts();
         return hosts;
