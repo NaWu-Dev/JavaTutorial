@@ -15,6 +15,7 @@
         <th>code</th>
         <th>name</th>
         <th>type</th>
+        <th>action</th>
     </tr>
 
     <c:forEach var="tempLocation" items="${locations}">
@@ -23,9 +24,12 @@
             <td>${tempLocation.code}</td>
             <td>${tempLocation.name}</td>
             <td>${tempLocation.type}</td>
+            <td><a href="deleteLocation?id=${tempLocation.id}">delete</a> </td>
         </tr>
     </c:forEach>
-
 </table>
+
+<a href="showCreate">Add Location</a>
+
 </body>
 </html>
