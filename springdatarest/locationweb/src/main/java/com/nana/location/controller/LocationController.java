@@ -2,6 +2,7 @@ package com.nana.location.controller;
 
 import com.nana.location.entity.Location;
 import com.nana.location.service.LocationService;
+import com.nana.location.utility.EmailUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.mail.MessagingException;
 import java.util.List;
 
 @Controller
@@ -19,16 +21,22 @@ public class LocationController {
     @Autowired
     private LocationService locationService;
 
+    @Autowired
+    private EmailUtility emailUtility;
+
     @RequestMapping("/showCreate")
     public String showCreate() {
         return "createLocation";
     }
 
     @PostMapping("/saveLoc")
-    public String saveLocation(@ModelAttribute("location") Location location, ModelMap modelMap) {
+    public String saveLocation(@ModelAttribute("location") Location location, ModelMap modelMap) throws MessagingException {
         Location locationSaved = locationService.saveLocation(location);
         String msg = "Location saved with id: " + locationSaved.getId();
         modelMap.addAttribute("msg", msg);
+
+        emailUtility.sendEmail("nightcat.test@gmail.com", "testing", "hahahaha");
+
         return "createLocation";
     }
 
