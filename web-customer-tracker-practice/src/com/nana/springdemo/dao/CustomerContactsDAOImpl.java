@@ -36,7 +36,7 @@ public class CustomerContactsDAOImpl implements CustomerContactsDAO {
     @Override
     public void saveCustomerContacts(Customer theCustomer) {
 
-        Session session = sessionFactory.getCurrentSession();
+         Session session = sessionFactory.getCurrentSession();
 
         CustomerContacts customerContacts = new CustomerContacts();
 
