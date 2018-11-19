@@ -1,6 +1,7 @@
 package com.nana.practice.flightreservation.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -9,7 +10,9 @@ public class Reservation extends AbstractEntity{
 
     private boolean checkIn;
     private int numberOfBags;
+    @OneToOne
     private Passenger passenger;
+    @OneToOne
     private Flight flight;
 
     public boolean isCheckIn() {
