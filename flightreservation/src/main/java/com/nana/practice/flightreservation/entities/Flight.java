@@ -10,7 +10,7 @@ import java.util.Date;
 public class Flight extends AbstractEntity{
 
     private String flightNumber;
-    private String operatingAirline;
+    private String operatingAirlines;
     private String departureCity;
     private String arrivalCity;
     private Date dateOfDeparture;
@@ -25,11 +25,11 @@ public class Flight extends AbstractEntity{
     }
 
     public String getOperatingAirline() {
-        return operatingAirline;
+        return operatingAirlines;
     }
 
     public void setOperatingAirline(String operatingAirline) {
-        this.operatingAirline = operatingAirline;
+        this.operatingAirlines = operatingAirline;
     }
 
     public String getDepartureCity() {

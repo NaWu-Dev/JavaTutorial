@@ -13,7 +13,7 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
-    @RequestMapping("/showReg")
+    @GetMapping("/showReg")
     public String showRegistrationPage() {
 
         return "login/registerUser";
@@ -26,6 +26,11 @@ public class UserController {
         userRepository.save(user);
         return "login/login";
 
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "/login/login";
     }
 
     @PostMapping("/login")
