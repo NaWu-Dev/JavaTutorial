@@ -1,7 +1,10 @@
 package com.nana.practice.flightreservation.entities;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.sql.Timestamp;
 import java.util.Date;
 
@@ -13,7 +16,11 @@ public class Flight extends AbstractEntity{
     private String operatingAirlines;
     private String departureCity;
     private String arrivalCity;
+
+    // Hibernate map only use Year, month, and day
+    @Temporal(TemporalType.DATE)
     private Date dateOfDeparture;
+
     private Timestamp estimatedDepartureTime;
 
     public String getFlightNumber() {
@@ -24,12 +31,12 @@ public class Flight extends AbstractEntity{
         this.flightNumber = flightNumber;
     }
 
-    public String getOperatingAirline() {
+    public String getOperatingAirlines() {
         return operatingAirlines;
     }
 
-    public void setOperatingAirline(String operatingAirline) {
-        this.operatingAirlines = operatingAirline;
+    public void setOperatingAirlines(String operatingAirlines) {
+        this.operatingAirlines = operatingAirlines;
     }
 
     public String getDepartureCity() {

@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -21,10 +23,9 @@ public class FlightController {
 
     @PostMapping("findFlights")
     public String findFlights(@RequestParam("from") String from, @RequestParam("to") String to,
-                              @RequestParam("departureDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Date departureDate,
+                              @RequestParam("departureDate") @DateTimeFormat(pattern = "dd-MM-yyyy") Date departureDate,
                               ModelMap modelMap) {
 
-        String test = departureDate.toString();
         List<Flight> flights = flightRepository.findFlight(from, to, departureDate);
         modelMap.addAttribute("flights", flights);
 
