@@ -26,7 +26,7 @@ Arrival City: ${flight.arrivalCity} <br>
     Expiry date: <input type="text" name="expirationDate" />
     Three digit security code: <input type="text" name="securityCode" />
 
-        <input type="hidden" name="flightId" value="${fligh.id}"/>
+        <input type="hidden" name="flightId" value="${flight.id}"/>
 
         <input type="submit" value="confirm" />
     </pre>

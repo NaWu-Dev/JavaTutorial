@@ -2,7 +2,9 @@ package com.nana.practice.flightreservation.controller;
 
 import com.nana.practice.flightreservation.dto.ReservationRequest;
 import com.nana.practice.flightreservation.entities.Flight;
+import com.nana.practice.flightreservation.entities.Reservation;
 import com.nana.practice.flightreservation.repository.FlightRepository;
+import com.nana.practice.flightreservation.services.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -16,6 +18,9 @@ public class ReservationController {
     @Autowired
     FlightRepository flightRepository;
 
+    @Autowired
+    ReservationService reservationService;
+
     @GetMapping("/showCompleteReservation")
     public String showCompleteReservation(@RequestParam("flightId") Long flightId, ModelMap modelMap) {
 
@@ -26,9 +31,12 @@ public class ReservationController {
     }
 
     @PostMapping("/completeReservation")
-    public String completeReservation(ReservationRequest reservationRequest) {
+    public String completeReservation(ReservationRequest reservationRequest, ModelMap modelMap) {
 
-        return "";
+        Reservation reservation = reservationService.bookFlight(reservationRequest);
+        modelMap.addAttribute("msg", "Reservation created successfully and the id is " + reservation.getId());
+
+        return "reservationConfirmation";
     }
 
 }

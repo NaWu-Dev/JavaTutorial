@@ -10,6 +10,7 @@ import com.nana.practice.flightreservation.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+@Service
 public class ReservationServiceImpl implements ReservationService {
 
     @Autowired
@@ -38,7 +39,7 @@ public class ReservationServiceImpl implements ReservationService {
         Reservation reservation = new Reservation();
         reservation.setFlight(flight);
         reservation.setPassenger(savedPassenger);
-        reservation.setCheckIn(false);
+        reservation.setCheckedIn(false);
         Reservation savedReservation = reservationRepository.save(reservation);
 
         return savedReservation;
