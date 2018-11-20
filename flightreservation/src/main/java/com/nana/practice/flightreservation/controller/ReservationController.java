@@ -1,11 +1,13 @@
 package com.nana.practice.flightreservation.controller;
 
+import com.nana.practice.flightreservation.dto.ReservationRequest;
 import com.nana.practice.flightreservation.entities.Flight;
 import com.nana.practice.flightreservation.repository.FlightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
@@ -21,6 +23,12 @@ public class ReservationController {
         modelMap.addAttribute("flight", flight);
 
         return "completeReservation";
+    }
+
+    @PostMapping("/completeReservation")
+    public String completeReservation(ReservationRequest reservationRequest) {
+
+        return "";
     }
 
 }
