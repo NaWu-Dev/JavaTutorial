@@ -13,14 +13,14 @@ public class ReservationRestController {
     @Autowired
     ReservationRepository reservationRepository;
 
-    @GetMapping("/reservations/{id}")
+    @RequestMapping("/reservations/{id}")
     public Reservation findReservation(@PathVariable("id") Long id) {
 
         return reservationRepository.findById(id).get();
 
     }
 
-    @PutMapping("/reservations")
+    @RequestMapping("/reservations")
     public Reservation updateReservation(@RequestBody ReservationUpdateRequest request) {
 
         Reservation reservation = reservationRepository.findById(request.getId()).get();
