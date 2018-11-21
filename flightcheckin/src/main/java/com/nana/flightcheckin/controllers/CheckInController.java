@@ -17,6 +17,11 @@ public class CheckInController {
     @Autowired
     private ReservationRestClient restClient;
 
+    @RequestMapping("/")
+    public String welcome() {
+        return "welcome";
+    }
+
     @RequestMapping("/showStartCheckin")
     public String showStartCheckin() {
         return "startCheckin";
