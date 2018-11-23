@@ -20,6 +20,7 @@ public class UserController {
     @GetMapping("/showReg")
     public String showRegistrationPage() {
 
+        LOGGER.info("Inside showRegistrationPage()");
         return "login/registerUser";
 
     }
@@ -27,6 +28,7 @@ public class UserController {
     @PostMapping("/registerUser")
     public String register(@ModelAttribute("user") User user) {
 
+        LOGGER.info("Inside register()" + user);
         userRepository.save(user);
         return "login/login";
 

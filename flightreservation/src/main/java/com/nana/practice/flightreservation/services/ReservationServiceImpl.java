@@ -9,9 +9,12 @@ import com.nana.practice.flightreservation.repository.PassengerRepository;
 import com.nana.practice.flightreservation.repository.ReservationRepository;
 import com.nana.practice.flightreservation.util.EmailUtil;
 import com.nana.practice.flightreservation.util.PDFGenerator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.stereotype.Service;
+
 
 @Service
 public class ReservationServiceImpl implements ReservationService {
@@ -31,8 +34,12 @@ public class ReservationServiceImpl implements ReservationService {
     @Autowired
     EmailUtil emailUtil;
 
+    private final static Logger LOGGER = LoggerFactory.getLogger(ReservationServiceImpl.class);
+
     @Override
     public Reservation bookFlight(ReservationRequest reservationRequest) {
+
+        LOGGER.info("Inside bookFlight()");
 
         // make payment
         Long flightId = reservationRequest.getFlightId();
