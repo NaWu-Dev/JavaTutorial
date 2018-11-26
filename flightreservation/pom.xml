@@ -6,7 +6,7 @@
     <groupId>com.nana.practice</groupId>
     <artifactId>flightreservation</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>flightreservation</name>
     <description>Flight Reservation</description>
