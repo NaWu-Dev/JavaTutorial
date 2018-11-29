@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
@@ -41,6 +42,7 @@ public class ReservationServiceImpl implements ReservationService {
     private final static Logger LOGGER = LoggerFactory.getLogger(ReservationServiceImpl.class);
 
     @Override
+    @Transactional
     public Reservation bookFlight(ReservationRequest reservationRequest) {
 
         LOGGER.info("Inside bookFlight()");
