@@ -16,8 +16,8 @@
     </tr>
     <c:forEach items="${contactForm.contacts}" var="contact" varStatus="status">
         <tr>
-            <td>${contact.firstname}</td>
-            <td>${contact.lastname}</td>
+            <td>${contact.firstName}</td>
+            <td>${contact.lastName}</td>
             <td>${contact.email}</td>
             <td>${contact.phone}</td>
         </tr>

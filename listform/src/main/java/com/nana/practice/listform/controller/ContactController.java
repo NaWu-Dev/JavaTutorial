@@ -3,6 +3,7 @@ package com.nana.practice.listform.controller;
 import com.nana.practice.listform.entity.Contact;
 import com.nana.practice.listform.entity.ContactForm;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -22,12 +23,14 @@ public class ContactController {
     }
 
     @GetMapping("/get")
-    public ModelAndView get() {
+    public String get(Model theModel) {
 
         ContactForm contactForm = new ContactForm();
         contactForm.setContacts(contacts);
 
-        return new ModelAndView("add_contact" , "contactForm", contactForm);
+        theModel.addAttribute("contactForm", contactForm);
+
+        return "add_contact";
     }
 
     @PostMapping("/save")
