@@ -1,4 +1,4 @@
-GET: $("#document").ready(
+GET: $(document).ready(
     function () {
 
         // Get request

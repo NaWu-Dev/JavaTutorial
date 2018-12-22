@@ -27,7 +27,7 @@ public class BookController {
 
     }
 
-    @GetMapping("/getBook")
+    @GetMapping("/getBooks")
     public ResponseEntity<Object> getAllBooks() {
 
         ServiceResponse<List<Book>> response = new ServiceResponse<>("success", bookStore);

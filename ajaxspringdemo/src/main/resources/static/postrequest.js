@@ -14,7 +14,7 @@ $(document).ready(
             var formData = {
                 bookId : $("#bookId").val(),
                 bookName : $("#bookName").val(),
-                author : $("#author").val(),
+                author : $("#author").val()
             }
 
             // Do post
@@ -22,7 +22,8 @@ $(document).ready(
                 type: "POST",
                 contentType : "application/json",
                 url : "saveBook",
-                dataType: JSON.stringify(formData),
+                data: JSON.stringify(formData),
+                dataType: 'json',
                 success: function(result) {
                     if (result.status == "success") {
                         $("#postResultDiv").html (
